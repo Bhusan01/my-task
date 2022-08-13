@@ -1,0 +1,78 @@
+nav {
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #f8f9fa;
+  padding: 20px 160px;
+}
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 350px;
+}
+select {
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 16px;
+  padding: 5px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+label {
+  margin-bottom: 5x;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.btn {
+  margin: 10px 0;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.start-btn {
+  background-color: #23943d;
+}
+
+.test-btn {
+  background-color: #17a2b8;
+}
+
+select:focus {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid #0817bc;
+}
+
+@media (max-width: 1000px) {
+  nav {
+    padding: 20px 15px;
+  }
+  .options-container {
+    padding: 10px 20px;
+  }
+  select {
+    width: 95vw;
+  }
+  .btn {
+    width: 95vw;
+  }
+}
+
+@media (max-width: 450px) {
+  nav {
+    padding: 15px 10px;
+  }
+
+  select {
+    width: 85vw;
+  }
+
+  .btn {
+    width: 85vw;
+  }
+}
